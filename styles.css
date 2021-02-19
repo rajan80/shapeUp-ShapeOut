@@ -1,0 +1,24 @@
+.rectangle {
+  border: 1px solid black;
+
+  background-color: green;
+}
+.square {
+  border: 2px solid black;
+  background-color: red;
+}
+.circle {
+  border-radius: 100%;
+  background-color: purple;
+
+  display: inline-block;
+}
+
+#draw-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin-left: 40vw;
+  border: 2px solid black;
+  background-color: rgba(192, 87, 17, 0.103);
+}
